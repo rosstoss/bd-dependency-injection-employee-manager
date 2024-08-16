@@ -1,5 +1,6 @@
 package main;
 
+import javax.inject.Inject;
 import java.math.BigDecimal;
 import java.util.ArrayList;
 import java.util.List;
@@ -9,6 +10,7 @@ import java.util.List;
  */
 public class HumanResourcesClient {
 
+    @Inject
     public HumanResourcesClient() { }
 
     /**
